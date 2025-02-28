@@ -1,0 +1,199 @@
+/* Estilos generales */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+}
+
+/* Menú de navegación */
+nav {
+  background-color: #2b3e64;
+}
+
+nav .navbar-nav .nav-link {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+/* Encabezado */
+.header {
+  background: linear-gradient(
+    to bottom,
+    rgba(30, 58, 138, 0.7),
+    rgba(30, 58, 138, 0.5)
+  );
+  color: white;
+  padding: 80px 0;
+  text-align: center;
+  border-bottom: 10px solid #2b3e64;
+}
+
+.header h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.header p {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header .btn {
+  margin-top: 30px;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border-radius: 30px;
+}
+
+.btn-primary {
+  background-color: #4caf50;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #45a049;
+}
+
+/* Imagen destacada (FT) */
+.ft-image {
+  margin-top: 50px;
+  width: 80%;
+  max-width: 500px;
+  height: auto;
+  margin-left: 400px;
+  margin-right: auto;
+  border-radius: 15px;
+}
+
+/* Sección de APIs */
+.apis-section {
+  padding: 50px 0;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.apis-section h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.apis-section .btn {
+  margin: 10px;
+  font-size: 1.2rem;
+  padding: 12px 25px;
+  border-radius: 30px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.apis-section .btn:hover {
+  transform: scale(1.05);
+  background-color: #4caf50;
+}
+
+/* Footer */
+footer {
+  background-color: #2b3e64;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/*ABOUT*/
+
+/* Estilo de la cabecera */
+.header {
+  background: linear-gradient(
+    to bottom,
+    rgba(30, 58, 138, 0.9),
+    rgba(30, 58, 138, 1)
+  );
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+  border-bottom: 5px solid #1e3a8a;
+}
+
+.header h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.header p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+/* Sección de contenido */
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #1e3a8a;
+  margin-bottom: 30px;
+}
+
+.content-section {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.content-section p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+/* Card de tecnologías */
+.tech-cards {
+  display: flex; /* Flexbox para alinear las tarjetas horizontalmente */
+  justify-content: center; /* Centra las tarjetas horizontalmente */
+  align-items: center; /* Centra las tarjetas verticalmente */
+  gap: 30px; /* Espacio entre las tarjetas */
+  margin-top: 50px;
+  flex-wrap: wrap; /* Permite que las tarjetas se acomoden en filas si es necesario */
+}
+
+.tech-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  flex: 1 1 250px; /* Hace que las tarjetas sean flexibles, con un ancho mínimo de 250px */
+  max-width: 350px; /* Establece un máximo para el ancho de cada tarjeta */
+  min-width: 250px; /* Establece un mínimo para el ancho de cada tarjeta */
+}
+
+.tech-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.tech-card i {
+  font-size: 3rem;
+  color: #1e3a8a;
+  margin-bottom: 15px;
+}
+
+.tech-card h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+}
